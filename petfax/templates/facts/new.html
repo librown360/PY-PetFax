@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <title>New Pet</title>
+    <title>New Pet Fact</title>
 </head>
 <body>
-    <h1>Add a Pet</h1>
+    <h1>Add a Pet Fact</h1>
     <form action="/facts" method="POST">
-        <h2>Name <input type="text" name="name" /></h2> 
+        <h2>Name<input type="text" name="submitter" /></h2> 
         <h2>Fact</h2>
         <textarea name="fact" id="fact" cols="30" rows="5"></textarea>
-        <p><input type="submit" value="submit" /></p>
-        <a href="/pets">Go back</a>
+        <p><input type="submit" value="Submit" /></p>
     </form>
+    <a href="/pets">Go back</a>
 </body>
 </html>

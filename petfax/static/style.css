@@ -31,7 +31,7 @@ h1 {
     font-size: 4em;
     text-align: center;
 }
-h2 {
+h2, h4 {
     color: var(--second-accent);
     margin: 0.5em 0;
 }
